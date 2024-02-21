@@ -1,0 +1,42 @@
+.footer {
+  line-height: 1.4;
+  background-color: #101010;
+  padding: 40px 0;
+}
+
+.footer__container {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-areas:
+    'developers logo'
+    'copyright logo';
+  gap: 36px;
+}
+
+.footer__developers {
+  grid-area: developers;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer__link {
+  outline: none;
+}
+
+.footer__link:focus,
+.footer__link:hover {
+  color: #ff521b;
+}
+
+.footer__copyright {
+  grid-area: copyright;
+}
+
+.footer__logo {
+  grid-area: logo;
+  align-self: end;
+  justify-self: end;
+  width: 287px;
+  height: 62px;
+}

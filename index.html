@@ -14,12 +14,14 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#000201" />
 
+    <link href="css/style.css" rel="stylesheet" />
+
     <title>ПРО КИНО - Аватар: Легенда об Аанге</title>
   </head>
   <body>
     <header class="header">
       <div class="container header__container">
-        <img class="header__logo logo" src="img/logo.svg" alt="Логотип ПРО КИНО" />
+        <img class="header__logo" src="img/logo.svg" alt="Логотип ПРО КИНО" />
 
         <a class="header__link" href="#trailers">Смотреть трейлер</a>
       </div>
@@ -49,9 +51,9 @@
       </section>
 
       <section class="about" id="about">
-        <div class="container">
+        <div class="container about__container">
           <div class="about__content">
-            <h2 class="about__title">Аватар: Легенда об Аанге</h2>
+            <h2 class="about__title">Аватар: Легенда об&nbsp;Аанге</h2>
 
             <p class="about__description">
               Сюжет рассказывает о&nbsp;мальчике из&nbsp;племени воздушных кочевников, Аанге, способном покорять стихию
@@ -66,9 +68,9 @@
           </div>
 
           <picture class="about__pic">
-            <source media="(min-width: 320px)" srcset="img/aang320.jpg" />
-            <source media="(min-width: 768px)" srcset="img/aang768.jpg" />
-            <source media="(min-width: 1024px)" srcset="img/aang1024.jpg" />
+            <source media="(max-width: 320px)" srcset="img/aang320.jpg" />
+            <source media="(max-width: 768px)" srcset="img/aang768.jpg" />
+            <source media="(max-width: 1024px)" srcset="img/aang1024.jpg" />
             <img class="about__image" src="img/aang.jpg" alt="Аанг на Аппе" />
           </picture>
         </div>
@@ -99,21 +101,13 @@
                 ></iframe>
               </div>
             </li>
-
-            <li class="trailers__item">
-              <div class="trailers__wrapper"></div>
-            </li>
-
-            <li class="trailers__item">
-              <div class="trailers__wrapper"></div>
-            </li>
           </ul>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <ul class="footer__developers">
           <li class="footer__developer">
             Designer:

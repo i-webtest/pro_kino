@@ -1,0 +1,30 @@
+.about {
+  padding: 60px 0;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about__content {
+  flex-basis: 750px;
+}
+
+.about__title {
+  font-weight: 600;
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+
+.about__description {
+  font-size: 20px;
+}
+
+.about__pic {
+  flex-basis: 530px;
+}
+
+.about__image {
+}

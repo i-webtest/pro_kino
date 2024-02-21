@@ -1,0 +1,45 @@
+.trailers {
+  padding: 60px 0 120px;
+}
+
+.trailers__buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.trailers__button {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #272928;
+  border-radius: 8px;
+  outline: none;
+  padding: 14px 20px;
+}
+
+.trailers__button:focus,
+.trailers__button:hover {
+  background-color: #ff521b;
+}
+
+.trailers__button_active {
+  background-color: #ff3d00;
+}
+
+.trailers__wrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+
+.trailers__video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
