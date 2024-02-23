@@ -103,9 +103,6 @@ iframe {
   border-color: #fff;
 }
 
-@media (max-width: 1080px) {
-}
-
 @media (max-width: 900px) {
   .container {
     padding: 0 44px;

@@ -32,6 +32,7 @@
 
 .trailers__wrapper {
   position: relative;
+  display: none;
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;

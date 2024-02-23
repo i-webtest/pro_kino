@@ -6,7 +6,6 @@
 
 .footer__container {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   grid-template-areas:
     'developers logo'
     'copyright logo';
