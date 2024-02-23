@@ -40,3 +40,37 @@
   width: 287px;
   height: 62px;
 }
+
+@media (max-width: 900px) {
+  .footer {
+    font-size: 12px;
+    padding: 32px 0;
+  }
+
+  .footer__container {
+    gap: 20px;
+  }
+
+  .footer__logo {
+    width: 217px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer__container {
+    grid-template-areas:
+      'logo'
+      'developers'
+      'copyright';
+  }
+
+  .footer__logo {
+    justify-self: start;
+    margin-bottom: 4px;
+  }
+}

@@ -19,21 +19,33 @@
 }
 
 .header__link {
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  background-color: #ff3d00;
-  border-radius: 52px;
-  border: 1px solid transparent;
-  outline: none;
-  padding: 14px 20px;
+  display: block;
 }
 
-.header__link:hover {
-  background-color: #ff521b;
+@media (max-width: 900px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header__logo {
+    width: 130px;
+    height: 28px;
+  }
 }
 
-.header__link:focus-visible {
-  background-color: #ff521b;
-  border-color: #fff;
+@media (max-width: 620px) {
+  .header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .header__logo {
+    width: 80px;
+    height: 18px;
+  }
+
+  .header__link {
+    display: none;
+  }
 }
